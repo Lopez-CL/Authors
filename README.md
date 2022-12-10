@@ -1,0 +1,3 @@
+# About Project
+
+Okay, OKay, this is the __last__ fullstack MERN project I'm pushing up to here and maintaining. This project is a very basic web app that allows a user to build a list of their favorite authors with full CRUD functionality if they wish to update and remove any authors who have fallen out of the user's favor... The list of authors is alphabetized by last name using sort() method in mongoose/MongoDB. The forms use validations which will fire both on the front-end and the back-end.
