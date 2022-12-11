@@ -7,6 +7,36 @@
   pointer-events: none;
 }
 
+.table{
+  margin: 1rem;
+}
+
+.action{
+  margin: 0px 5px;
+}
+
+.error{
+  color: red;
+  font-weight: bolder;
+}
+form{
+  width: 65%;
+  padding: 1em;
+  box-shadow: 0px 2px 2px 1px;
+  
+}
+input{
+  width: fit-content;
+}
+
+.form-control{
+  width: 50% !important;
+}
+
+table{
+  width: 500px !important;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

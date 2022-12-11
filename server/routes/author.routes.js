@@ -5,5 +5,5 @@ module.exports = app =>{
     app.get('/api/getAuthor/:_id', AuthorController.getAuthorById);
     app.post('/api/createAuthor', AuthorController.createAuthor);
     app.put('/api/updateAuthor/:_id', AuthorController.updateAuthor);
-    app.get('/api/deleteAuthor:_id', AuthorController.deleteAuthor);
+    app.delete('/api/deleteAuthor/:_id', AuthorController.deleteAuthor);
 };

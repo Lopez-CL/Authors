@@ -13,7 +13,7 @@ module.exports.createAuthor = (req,res) => {
 // display all
 module.exports.displayAllAuthors = (req,res) => {
     Author.find().sort({
-        fName:-1
+        lName: 1
     })
         .then((allAuthors) => res.json(allAuthors))
         .catch((err) =>{
